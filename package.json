@@ -8,7 +8,7 @@
     "node": "6.*"
   },
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

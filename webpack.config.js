@@ -13,7 +13,7 @@ var React = require('react');
 var ReactDOM = require('react-dom/server');
 var Router = require('react-router');
 var swig  = require('swig'); // 视图引擎
-var proxy = require('http-proxy-middleware');
+var proxy = require('http-proxy-middleware')
 //require('xml2js') xml 和json 互相转换
 //require('fs') 文件读写操作
 var cfenv = require("cfenv");
@@ -46,6 +46,7 @@ module.exports = {
      }
  };
 
+var port = process.env.PORT || 8000
 app.use(compression());  // 压缩gzip包
 app.use(logger('dev'));
 app.use(bodyParser.json());
