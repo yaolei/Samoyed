@@ -61,58 +61,33 @@ var app = function (_React$Component) {
           'div',
           null,
           _react2.default.createElement(_TextField2.default, {
-            hintText: 'Hint Text'
-          }),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement(_TextField2.default, {
-            hintText: 'The hint text can be as long as you want, it will wrap.'
+            hintText: 'This is Required Field',
+            floatingLabelText: 'Department'
           }),
           _react2.default.createElement('br', null),
           _react2.default.createElement(_TextField2.default, {
-            id: 'text-field-default',
-            defaultValue: 'Default Value'
+            hintText: 'Your Full Name',
+            floatingLabelText: 'Name'
           }),
           _react2.default.createElement('br', null),
           _react2.default.createElement(_TextField2.default, {
-            hintText: 'Hint Text',
-            floatingLabelText: 'Floating Label Text'
+            hintText: 'Your Mobile Name',
+            floatingLabelText: 'Mobile Num'
           }),
           _react2.default.createElement('br', null),
           _react2.default.createElement(_TextField2.default, {
-            defaultValue: 'Default Value',
-            floatingLabelText: 'Floating Label Text'
+            hintText: 'This is Required Field',
+            floatingLabelText: 'Sharing Skill'
           }),
           _react2.default.createElement('br', null),
           _react2.default.createElement(_TextField2.default, {
-            hintText: 'Hint Text',
-            floatingLabelText: 'Fixed Floating Label Text',
-            floatingLabelFixed: true
+            hintText: 'This is Required Field',
+            floatingLabelText: 'Learning Skill'
           }),
           _react2.default.createElement('br', null),
           _react2.default.createElement(_TextField2.default, {
-            hintText: 'Password Field',
-            floatingLabelText: 'Password',
-            type: 'password'
-          }),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement(_TextField2.default, {
-            hintText: 'MultiLine with rows: 2 and rowsMax: 4',
-            multiLine: true,
-            rows: 2,
-            rowsMax: 4
-          }),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement(_TextField2.default, {
-            hintText: 'Message Field',
-            floatingLabelText: 'MultiLine and FloatingLabel',
-            multiLine: true,
-            rows: 2
-          }),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement(_TextField2.default, {
-            hintText: 'Full width',
-            fullWidth: true
+            hintText: 'Floating Label Text',
+            floatingLabelText: 'Employee Serial'
           })
         )
       );
