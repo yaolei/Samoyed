@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const element = <h1>Hello, world</h1>;
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
+import App from './components/app';
 ReactDOM.render(
-  element,
+  <App />,
   document.getElementById('root')
 );
